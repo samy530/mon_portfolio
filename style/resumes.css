@@ -84,6 +84,7 @@ body {
   text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
 }
 
 .resume-carte:hover {
@@ -104,6 +105,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .resume-actions .btn {
@@ -116,6 +119,10 @@ body {
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(100,255,218,0.4);
   transition: all 0.3s ease;
+  max-width: 100%;
+  text-align: center;
+  word-break: break-word;
+  box-sizing: border-box;
 }
 
 .resume-actions .btn:hover {
