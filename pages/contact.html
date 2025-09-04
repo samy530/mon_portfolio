@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <a href="../index.html" class="intro-icon">
+      <i class="fas fa-home"></i>
+    </a>
+    <h1>Mon Portfolio</h1>
+  </div>
+
+  <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+  <nav>
+    <a href="../accueil.html">Accueil</a>
+    <a href="./parcours.html">Parcours</a>
+    <a href="./projets.html">Projets</a>
+    <a href="./certifications.html">Certifications</a>
+    <a href="./resumes.html">Mes Supports Académiques</a>
+    <a href="./contact.html"class="active">Contact</a>
+  </nav>
+</header>
+
+
+  <section class="contact">
+    <div class="contact-intro">
+      <i class="fas fa-envelope-open-text"></i>
+      <h2>Restons en contact 📬</h2>
+      <p>N’hésitez pas à m’écrire via le formulaire ou à me retrouver sur mes réseaux.</p>
+    </div>
+
+    <div class="contact-card">
+      <form class="contact-form" 
+            action="https://formspree.io/f/mgvlpwov" 
+            method="POST">
+
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <input type="text" name="subject" placeholder="Objet" required>
+        <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+        
+        <div class="captcha">
+          <label>
+            <input type="checkbox" name="_captcha" required>
+            Je confirme que je ne suis pas un robot
+          </label>
+        </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <div class="contact-socials">
+        <h3>Retrouvez-moi :</h3>
+        <a href="https://github.com/samy530" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/samy-m-876832296/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  <div class="socials">
+    <a href="https://github.com/samy530" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/samy-m-876832296/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <p>Samy Maguemoun © 2025. Tous droits réservés.</p>
+</footer>
+<script>
+  // Quand l'utilisateur revient sur la page (back/forward), on force le refresh
+  window.addEventListener("pageshow", function(event) {
+    if (event.persisted || window.performance && window.performance.getEntriesByType("navigation")[0].type === "back_forward") {
+      // Recharge la page pour vider le formulaire
+      window.location.reload();
+    }
+  });
+</script>
+<script src="../js/menu.js"></script>
+</body>
+</html>

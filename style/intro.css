@@ -1,0 +1,95 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0a192f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .envelope {
+      position: relative;
+      width: 250px;
+      height: 150px;
+      cursor: pointer;
+      animation: float 4s ease-in-out infinite;
+      transition: transform 1s ease, opacity 1s ease;
+    }
+
+    .envelope-body {
+      width: 100%;
+      height: 100%;
+      background: #f4e1c1;
+      border: 2px solid #cbb994;
+      border-radius: 4px;
+    }
+
+    .envelope-flap {
+      position: absolute;
+      top: -75px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 125px solid transparent;
+      border-right: 125px solid transparent;
+      border-bottom: 75px solid #e0c79d;
+    }
+
+    .seal {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 60px;
+      background: crimson;
+      border-radius: 50%;
+      color: white;
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(220,20,60,0.6);
+    }
+
+    @keyframes float {
+      0%   { transform: translateY(0px); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .envelope.opening {
+      transform: scale(3);
+      opacity: 0;
+    }
+
+.welcome-bg {
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-msg {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeInZoom 1.5s ease forwards;
+}
+
+@keyframes fadeInZoom {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes Supports Académiques</title>
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/resumes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <a href="../index.html" class="intro-icon">
+        <i class="fas fa-home"></i>
+      </a>
+      <h1>Mon Portfolio</h1>
+    </div>
+
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+    <nav>
+      <a href="../accueil.html">Accueil</a>
+      <a href="./parcours.html">Parcours</a>
+      <a href="./projets.html">Projets</a>
+      <a href="./certifications.html">Certifications</a>
+      <a href="./resumes.html" class="active">Mes Supports Académiques</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro-resumes">
+    <div class="intro-resumes-icon">
+      <i class="fas fa-book-open"></i>
+    </div>
+    <div class="intro-text">
+      <h2>Une section dédiée aux étudiants 📚</h2>
+      <p>
+        Durant mon parcours universitaire, j’ai été administrateur de plusieurs groupes
+        de ma section. Nous y partagions régulièrement des résumés, supports et cours
+        afin d’avancer ensemble.
+      </p>
+      <p>
+        Cette section rassemble donc mes propres résumés et documents, pensés pour
+        être utiles non seulement à mes camarades étudiants, mais aussi pour montrer
+        aux entreprises ma rigueur et ma capacité à partager le savoir.
+      </p>
+    </div>
+  </section>
+
+ 
+  <div class="filtres">
+    <button onclick="filtrerCategorie('tous')">Tous</button>
+    <button onclick="filtrerCategorie('université')">Université</button>
+    <button onclick="filtrerCategorie('certification')">Certifications</button>
+    <select onchange="filtrerNiveau(this.value)">
+      <option value="tous">Tous niveaux</option>
+      <option value="L2">Licence 2</option>
+      <option value="L3">Licence 3</option>
+      <option value="M1">Master 1</option>
+    </select>
+    <input type="text" id="recherche" placeholder="Rechercher un résumé...">
+  </div>
+
+
+  <div id="resumes-container" class="grille"></div>
+  
+  <footer>
+    <div class="socials">
+      <a href="https://github.com/samy530" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/samy-m-876832296/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>Samy Maguemoun © 2025. Tous droits réservés.</p>
+  </footer>
+
+  <script src="../js/resumes.js"></script>
+  <script src="../js/menu.js"></script>
+</body>
+</html>
