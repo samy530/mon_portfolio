@@ -29,7 +29,7 @@ body {
 }
 
 .intro-text p {
-  margin: 0;
+  margin: 0 0 8px;
   line-height: 1.6;
   color: #ccd6f6;
 }
@@ -59,6 +59,8 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
+  min-width: 80px; 
+  box-sizing: border-box;
 }
 
 .filtres button:hover,
@@ -121,6 +123,7 @@ body {
   box-shadow: 0 6px 15px rgba(100,255,218,0.6);
   transform: translateY(-3px);
 }
+
 @media (max-width: 900px) {
   .grille {
     grid-template-columns: repeat(2, 1fr);
@@ -151,6 +154,7 @@ body {
   .filtres input {
     width: 100%;
     text-align: center;
+    padding: 12px; 
   }
 
   .grille {
@@ -171,5 +175,6 @@ body {
   .resume-actions .btn {
     width: 100%;
     text-align: center;
+    padding: 12px;
   }
 }
