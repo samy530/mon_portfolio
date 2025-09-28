@@ -357,3 +357,17 @@ document.getElementById("recherche").addEventListener("input", (e) => {
 
 // --- Initialisation --- //
 window.onload = afficherResumes;
+
+
+function reinitialiserFiltres() {
+  filtreCategorie = "tous";
+  filtreNiveau = "tous";
+  rechercheTexte = "";
+
+
+  document.getElementById("recherche").value = "";
+  document.querySelector(".filtres select").value = "tous";
+
+  
+  afficherResumes();
+}
