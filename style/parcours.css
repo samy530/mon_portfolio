@@ -190,3 +190,31 @@ body {
     font-size: 0.9em;
   }
 }
+
+.text-green {
+  color: #4caf50;
+}
+
+.text-blue {
+  color: #2196f3; 
+}
+
+.text-yellow {
+  color: #fbc02d;
+}
+
+.text-orange {
+  color: #ff9800; 
+}
+
+.text-indigo {
+  color: #3f51b5;
+}
+
+.text-red {
+  color: #f44336; 
+}
+
+.text-purple {
+  color: #9c27b0; 
+}
