@@ -303,7 +303,6 @@ const resumes = [
 }
 ];
 
-
 // --- Variables de filtre --- //
 let filtreCategorie = "tous";
 let filtreNiveau = "tous";
@@ -342,6 +341,17 @@ function afficherResumes() {
 // --- Filtres --- //
 function filtrerCategorie(categorie) {
   filtreCategorie = categorie;
+
+  const selectNiveau = document.querySelector(".filtres select");
+
+  if (categorie === "université") {
+    selectNiveau.style.display = "inline-block"; // montrer seulement pour université
+  } else {
+    selectNiveau.style.display = "none"; // cacher sinon
+    filtreNiveau = "tous"; // reset
+    selectNiveau.value = "tous";
+  }
+
   afficherResumes();
 }
 
@@ -356,18 +366,20 @@ document.getElementById("recherche").addEventListener("input", (e) => {
 });
 
 // --- Initialisation --- //
-window.onload = afficherResumes;
+window.onload = () => {
+  afficherResumes();
+  document.querySelector(".filtres select").style.display = "none"; // cacher par défaut
+};
 
-
+// --- Réinitialiser --- //
 function reinitialiserFiltres() {
   filtreCategorie = "tous";
   filtreNiveau = "tous";
   rechercheTexte = "";
 
-
   document.getElementById("recherche").value = "";
   document.querySelector(".filtres select").value = "tous";
+  document.querySelector(".filtres select").style.display = "none"; // recacher
 
-  
   afficherResumes();
 }
