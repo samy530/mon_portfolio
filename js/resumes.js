@@ -1,5 +1,96 @@
 const resumes = [
   {
+  titre: "Résumé Systèmes d’Exploitation II  (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_SE2_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
+    titre: "Mini Résumé Systèmes d’Exploitation II (Cours) -MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_SE2_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
+  {
+  titre: "Résumé Architecture II  (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_ARCHI2_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
+    titre: "Mini Résumé Architecture II (Cours) -MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_ARCHI2_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M1"
+  },
+  {
+  titre: "Résumé Langages de Description des Architectures  (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_LDA_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  }
+  ,
+  {
+    titre: "Mini Résumé Langages de Description des Architectures (Cours) -MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_LDA_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M1"
+  }/*,
+  {
+  titre: "Résumé Logique formelle   (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_LF_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  }*/,
+  {
+  titre: "Résumé Vérification Validation de programmes   (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_VVP_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
+    titre: "Mini Résumé Vérification Validation de programmes (Cours) -MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_VPP_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
+  {
+  titre: "Résumé Techniques de programmation web   (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_DEVWEB_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
+    titre: "Mini Résumé Techniques de programmation web (Cours) -MASTER 1",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_DEVWEB_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
+  {
+  titre: "Résumé Réseaux de Capteurs    (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_RSC_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
+    titre: "Mini Résumé Réseaux de Capteurs (Cours) -MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_RSC_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
+   {
+    titre: "Mini Résumé Réseaux de Capteurs (TP) -MASTER 2",
+    fichier: "../pdf/m2/RESUME_TP_RSC_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
+  {
+  titre: "Résumé Anglais III   (Cours) - MASTER 2",
+  fichier: "../pdf/m2/RESUME_COURS_ANGLAIS3_M2_2025_2026.pdf",
+  categorie: "université",
+  niveau: "M2"
+  },
+  {
     titre: "Résumé Parcours Système et Réseaux (Cours) – Master 1 ",
     fichier: "../pdf/m1/RESUME_COURS_PSR_M1_2024_2025.pdf",
     categorie: "université",
