@@ -61,7 +61,7 @@ const resumes = [
   niveau: "M2"
   },
   {
-    titre: "Mini Résumé Techniques de programmation web (Cours) -MASTER 1",
+    titre: "Mini Résumé Techniques de programmation web (Cours) -MASTER 2",
     fichier: "../pdf/m2/MINI_RESUME_COURS_DEVWEB_M2_2025_2026.pdf",
     categorie: "université",
     niveau: "M2"
