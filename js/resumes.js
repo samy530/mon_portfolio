@@ -79,7 +79,7 @@ const resumes = [
     niveau: "M2"
   },
    {
-    titre: "Mini Résumé Réseaux de Capteurs (TP) -MASTER 2",
+    titre: "Résumé Réseaux de Capteurs (TP) -MASTER 2",
     fichier: "../pdf/m2/RESUME_TP_RSC_M2_2025_2026.pdf",
     categorie: "université",
     niveau: "M2"
