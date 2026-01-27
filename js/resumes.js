@@ -21,7 +21,7 @@ const resumes = [
     titre: "Mini Résumé Architecture II (Cours) -MASTER 2",
     fichier: "../pdf/m2/MINI_RESUME_COURS_ARCHI2_M2_2025_2026.pdf",
     categorie: "université",
-    niveau: "M1"
+    niveau: "M2"
   },
   {
   titre: "Résumé Langages de Description des Architectures  (Cours) - MASTER 2",
@@ -34,7 +34,7 @@ const resumes = [
     titre: "Mini Résumé Langages de Description des Architectures (Cours) -MASTER 2",
     fichier: "../pdf/m2/MINI_RESUME_COURS_LDA_M2_2025_2026.pdf",
     categorie: "université",
-    niveau: "M1"
+    niveau: "M2"
   }/*,
   {
   titre: "Résumé Logique formelle   (Cours) - MASTER 2",
