@@ -35,13 +35,19 @@ const resumes = [
     fichier: "../pdf/m2/MINI_RESUME_COURS_LDA_M2_2025_2026.pdf",
     categorie: "université",
     niveau: "M2"
-  }/*,
+  },
   {
   titre: "Résumé Logique formelle   (Cours) - MASTER 2",
   fichier: "../pdf/m2/RESUME_COURS_LF_M2_2025_2026.pdf",
   categorie: "université",
   niveau: "M2"
-  }*/,
+  },
+   {
+    titre: "Mini Résumé Logique formelle   (Cours) - MASTER 2",
+    fichier: "../pdf/m2/MINI_RESUME_COURS_LF_M2_2025_2026.pdf",
+    categorie: "université",
+    niveau: "M2"
+  },
   {
   titre: "Résumé Vérification Validation de programmes   (Cours) - MASTER 2",
   fichier: "../pdf/m2/RESUME_COURS_VVP_M2_2025_2026.pdf",
