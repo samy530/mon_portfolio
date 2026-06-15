@@ -33,8 +33,32 @@
 </header>
 <section class="projets">
     <h2><i class="fas fa-code"></i> Mes Projets</h2>
-    <p>Voici quelques projets académiques et personnels que j’ai réalisés :</p>
+   <p>Voici quelques projets académiques et personnels que j’ai réalisés :</p>
+      <div class="projet-card">
+        <h3><i class="fas fa-file-invoice-dollar"></i> SmartInvoice - Extraction automatique de données factures (PFE)</h3>
+        <p>
+           Conception et réalisation d'un système intelligent d'extraction automatique d'informations à partir de factures, combinant la reconnaissance optique de caractères (OCR) et les grands modèles de langage (LLM) pour surpasser les limites des approches traditionnelles.
+        </p>
+        <ul>
+          <li><strong>Architecture modulaire :</strong> Pipeline en 5 blocs (Prétraitement image, OCR, Extraction LLM, Détection d'anomalies, Gestion des données)</li>
+          <li><strong>Gestion multi-rôles :</strong> Utilisateur personnel, Employé, Responsable d'entreprise, Administrateur système (Authentification JWT)</li>
+          <li><strong>Évaluation rigoureuse :</strong> Test de 15 configurations (3 OCR + 6 LLM) sur 53 factures annotées manuellement</li>
+          <li><strong>Performance record :</strong> Taux d'exactitude globale de 79% et taux d'approximation de 92,08% (Meilleure config: EasyOCR + Groq Llama 3.3)</li>
+          <li><strong>Détection d'anomalies :</strong> Validation automatique des incohérences sur les dates, montants, devises et numéros de facture</li>
+          <li><strong>Interface complète :</strong> Dashboard personnalisé, export CSV, historique et visualisation des documents</li>
+        </ul>
 
+        <div class="tech-icons">
+          <div>
+            <i class="fa-brands fa-python text-blue" title="Python"></i>
+            <i class="fa-brands fa-react text-blue" title="React"></i>
+            <i class="fa-solid fa-microchip text-gray" title="IA / LLM (Groq Llama 3.3)"></i>
+            <i class="fa-solid fa-eye text-purple" title="OCR (EasyOCR)"></i>
+            <i class="fa-solid fa-database text-gray" title="SQLite / SQLAlchemy"></i>
+            <i class="fa-solid fa-chart-line text-green" title="FastAPI"></i>
+          </div>
+        </div>
+      </div>
     <div class="projets-grid">
       <div class="projet-card">
         <h3><i class="fas fa-calendar-check"></i> BookEase - Plateforme de réservation de salles</h3>
@@ -42,12 +66,12 @@
           Développement d'une plateforme web permettant la location et réservation de salles de réunion/événements avec gestion multi-rôles, interface intuitive et API REST.
         </p>
         <ul>
-          <li><strong>👥 3 rôles :</strong> Client, Propriétaire, Administrateur</li>
-          <li><strong>🔍 Recherche avancée :</strong> localisation, prix, capacité, équipements</li>
-          <li><strong>🗺️ Carte interactive Mapbox</strong> pour visualiser et géolocaliser les salles</li>
-          <li><strong>📅 Réservation en 3 étapes</strong> avec génération de code de confirmation</li>
-          <li><strong>📊 Dashboards personnalisés</strong> avec statistiques et gestion complète</li>
-          <li><strong>⭐ Système d'avis et de notation</strong> après réservation</li>
+          <li><strong>3 rôles :</strong> Client, Propriétaire, Administrateur</li>
+          <li><strong>Recherche avancée :</strong> localisation, prix, capacité, équipements</li>
+          <li><strong>Carte interactive Mapbox</strong> pour visualiser et géolocaliser les salles</li>
+          <li><strong>Réservation en 3 étapes</strong> avec génération de code de confirmation</li>
+          <li><strong>Dashboards personnalisés</strong> avec statistiques et gestion complète</li>
+          <li><strong>Système d'avis et de notation</strong> après réservation</li>
         </ul>
         <div class="tech-icons">
           <div>
@@ -156,9 +180,9 @@
           Plateforme web collaborative pour le département informatique de l’Université Mouloud Mammeri Tizi-Ouzou, facilitant l’accès et le partage de contenus pédagogiques (cours, TD, TP, mémoires, livres, annonces…).
         </p>
         <ul>
-          <li>👀 Pour le Visiteur : navigation libre, inscription via formulaire.</li>
-          <li>🎓 Pour l’Étudiant : authentification sécurisée, consultation et publication de ressources, gestion de profil, contact admin, déconnexion sécurisée.</li>
-          <li>👨‍💼 Pour l’Administrateur : gestion des comptes, publications, bibliothèque, messages et statistiques.</li>
+          <li>Pour le Visiteur : navigation libre, inscription via formulaire.</li>
+          <li>Pour l’Étudiant : authentification sécurisée, consultation et publication de ressources, gestion de profil, contact admin, déconnexion sécurisée.</li>
+          <li>Pour l’Administrateur : gestion des comptes, publications, bibliothèque, messages et statistiques.</li>
         </ul>
         <div class="tech-icons">
           <div>
