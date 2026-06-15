@@ -78,10 +78,13 @@
       <a href="https://github.com/samy530" target="_blank"><i class="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/samy-m-876832296/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
-    <p>Samy Maguemoun © 2025. Tous droits réservés.</p>
+    <p>Samy Maguemoun © <span id="currentYear"></span> Tous droits réservés.</p>
   </footer>
 
   <script src="../js/resumes.js"></script>
   <script src="../js/menu.js"></script>
+  <script>
+  document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+</script>
 </body>
 </html>
